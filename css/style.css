@@ -233,6 +233,8 @@ nav li.highlight {
 
 .brand-logo img {
     margin: 0 0 30px;
+    max-width: 400px;
+    width: 100%;
 }
 
 .hovertxt {
