@@ -126,12 +126,12 @@ header {
 }
 
 .logo {
-    margin: 20px 0;
+    margin: 15px 0;
     text-align: center;
 }
 
 .logo img {
-    max-width: 100px;
+    max-width: 120px;
     width: 100%;
 }
 
