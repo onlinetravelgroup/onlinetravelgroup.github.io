@@ -37,7 +37,7 @@ body {
 h1, h2, h3, h4, h5 ,h6 {
     margin: 0;
     color: #4e4e4e;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 h1 {
@@ -121,14 +121,16 @@ nav {
 }
 
 nav a {
+    font-size: 13px;
+    font-weight: 700;
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
-nav li.highlight {
-    background: #ff9178;
+nav li {
     padding: 40px 20px 10px;
-    margin: 0 15px;
 }
 
 .fade {
@@ -372,14 +374,14 @@ footer {
     height: 350px;
     width: 100%;
     background: #232629;
-    color: #464f59;
+    color: #737c86;
     text-align: center;
     padding: 70px 0;
     font-weight: bold;
 }
 
-.phone a:link {
-    color: #464f59;
+.phone a {
+    color: #737c86;
     text-decoration: none;
     font-size: 21px;
 }
@@ -387,12 +389,13 @@ footer {
 
 .contact-details {
     font-size: 15px;
+    font-weight: 400;
     margin: 15px 0 0;
     line-height: 25px;
 }
 
-.contact-details a:link {
-    color: #464f59;
+.contact-details a {
+    color: #737c86;
     text-decoration: none;
 }
 
@@ -402,13 +405,13 @@ footer {
 }
 
 .social a {
-    color: #5a6166;
+    color: #737c86;
     text-decoration: none;
 }
 
 .copyright {
     margin: 30px 0 0;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: normal;
 }
 
